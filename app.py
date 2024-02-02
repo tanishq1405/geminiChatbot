@@ -19,7 +19,7 @@ def get_gemini_response(question):
 
 st.set_page_config(
     page_title="My Custom Gemini Pro Chatbot",
-    page_icon="!brain:",
+    page_icon="🧠",
     layout="wide",
     )
 
