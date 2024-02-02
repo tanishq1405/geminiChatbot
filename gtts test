@@ -1,0 +1,10 @@
+from gtts import gTTS
+import os
+from playsound import playsound
+
+def textToSpeech(text):
+    speech = gTTS(text = text, lang="en", slow=False)
+    speeh_file = "text.mp3"
+    speech.save(speeh_file)
+    playsound(speeh_file)
+textToSpeech("hello")
